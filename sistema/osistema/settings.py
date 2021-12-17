@@ -150,3 +150,6 @@ ACCOUNT_UNIQUE_EMAIL = True
 # crispy-forms
 
 CRISPY_TEMPLATE_PACK = "bootstrap4"
+
+
+AUTH_USER_MODEL = "users.User"
