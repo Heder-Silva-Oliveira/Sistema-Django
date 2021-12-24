@@ -16,7 +16,7 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import include, path
 
-from sistema.pages.views import storepage
+#from sistema.pages.views import storepage
 
 urlpatterns = [
     # Django Admin
@@ -25,7 +25,7 @@ urlpatterns = [
     path("accounts/", include("allauth.urls")),
     # Local
     path("", include("pages.urls", namespace="pages")),
-    path("store/", storepage, name="storepage-store"),
+    #path("store/", storepage, name="storepage-store"),
 
 
 ]
