@@ -7,6 +7,6 @@ class HomePageView(TemplateView):
 
 
 def storepage(request):
-    return render(request, "store.html")
+    return render(request, 'store.html')
 
 
